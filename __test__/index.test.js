@@ -1,0 +1,19 @@
+describe("Group of randome tests", () => {
+  test("numbers match", () => {
+    const x = 1;
+    const y = 1;
+
+    expect(x).toBe(y);
+  });
+
+  test("word has correct letters", () => {
+    const word = "hello";
+
+    expect(word.length).toBe(5);
+  });
+
+  test("is a truthy value", () => {
+    const lovesFood = truthy;
+    expect(lovesFood).toBeTruthy();
+  });
+});

@@ -1,0 +1,23 @@
+{
+  "name": "first_pipeline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ds-westwallasey/pipeline-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ds-westwallasey/pipeline-test/issues"
+  },
+  "homepage": "https://github.com/ds-westwallasey/pipeline-test#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
