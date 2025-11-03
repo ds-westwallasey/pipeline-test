@@ -13,7 +13,7 @@ describe("Group of randome tests", () => {
   });
 
   test("is a truthy value", () => {
-    const lovesFood = truthy;
+    const lovesFood = "truthy";
     expect(lovesFood).toBeTruthy();
   });
 });
