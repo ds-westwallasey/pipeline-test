@@ -16,4 +16,9 @@ describe("Group of randome tests", () => {
     const lovesFood = "truthy";
     expect(lovesFood).toBeTruthy();
   });
+
+  test("is a falsy value", () => {
+    const isFalse = 0;
+    expect(isFalse).toBeFalsy();
+  });
 });
