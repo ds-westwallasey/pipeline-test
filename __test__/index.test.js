@@ -1,7 +1,7 @@
 describe("Group of randome tests", () => {
   test("numbers match", () => {
     const x = 1;
-    const y = 1;
+    const y = 2;
 
     expect(x).toBe(y);
   });
@@ -9,7 +9,7 @@ describe("Group of randome tests", () => {
   test("word has correct letters", () => {
     const word = "hello";
 
-    expect(word.length).toBe(4);
+    expect(word.length).toBe(5);
   });
 
   test("is a truthy value", () => {
