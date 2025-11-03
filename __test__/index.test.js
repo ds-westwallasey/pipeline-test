@@ -9,7 +9,7 @@ describe("Group of randome tests", () => {
   test("word has correct letters", () => {
     const word = "hello";
 
-    expect(word.length).toBe(5);
+    expect(word.length).toBe(4);
   });
 
   test("is a truthy value", () => {
