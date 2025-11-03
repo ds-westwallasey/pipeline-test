@@ -1,6 +1,6 @@
 name: Execute Bullshit Tests
 
-on: worflow_dispatch
+on: workflow_dispatch
 
 jobs:
   test:
